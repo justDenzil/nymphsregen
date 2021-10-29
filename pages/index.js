@@ -22,7 +22,6 @@ export default function Home() {
                 <img className="image" src="/nymphsRegenLogo.svg"/>
               </a>
               <div className="nav">
-              
               </div>
             </div>
             <div className="main-container">
@@ -43,7 +42,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="hero-image-container">
-                <img className="image-2" src="/hero-illustration.png"/>
+                <img class="image-2" src="/hero-illustration.png"/>
                 </div>
               </section>
               <section className="about-section" id="about">
