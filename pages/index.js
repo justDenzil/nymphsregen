@@ -44,7 +44,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="hero-image-container">
-                <img class="image-2" src="/hero-illustration.png"/>
+                <img className="image-2" src="/hero-illustration.png"/>
                 </div>
               </section>
               <section className="about-section" id="about">
@@ -203,7 +203,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="map-container">
-                    <ContactLottie className="lottie"/>
+                    <ContactLottie />
                   </div>
                 </div>
               </section>
