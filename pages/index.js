@@ -28,12 +28,12 @@ export default function Home() {
             <div className="main-container">
               <section className="hero-section">
                 <div className="hero-tagline">
-                  <h1 className="heading-1">Let's go <span>Green</span> together.</h1>
+                  <h1 className="heading-1">Let&apos;s go <span>Green</span> together.</h1>
                   <p className="paragraph">
                     We provide eco-friendly solutions across multiple industries!
                   </p>
                   <p className="paragraph-2">
-                    Join us at NymphsRegen and together we'll do our part in the
+                    Join us at NymphsRegen and together we&apos;ll do our part in the
                     Green Revolution
                   </p>
                   <div ontouchstart="">
@@ -66,7 +66,7 @@ export default function Home() {
                           <i className="material-icons screen-1__icon">face</i>
                           <div className="screen-1__value-content">
                             <div className="screen-1__value-title">
-                              Trusted &apos; Reliable
+                              Trusted &amp; Reliable
                             </div>
                             <p className="screen-1__paragraph-4">
                               With immense industrial knowledge and experience on
@@ -138,7 +138,7 @@ export default function Home() {
                     </div>
                     <div className="venture-2-container">
                     <img className="image-7" src="/venture2.png"/>
-                      <h1 className="heading-7">Nymphs Infrastructure &apos; Design</h1>
+                      <h1 className="heading-7">Nymphs Infrastructure &amp; Design</h1>
                       <div className="v2-desc">
                         Environment conscious design that enables sustainable
                         infrastructure.
@@ -180,7 +180,7 @@ export default function Home() {
               <section className="contact-section">
                 <div className="contact-title">
                   <h1 className="contact">Contact</h1>
-                  <div className="text">We'd Love to hear from you</div>
+                  <div className="text">We&apos;d Love to hear from you</div>
                 </div>
                 <div className="contact-details-container">
                   <div className="contact-section-container">
