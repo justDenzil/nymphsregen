@@ -3,10 +3,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ContactLottie from '../components/ContactLottie';
-import { MdEmail, MdPhone, MdMeetingRoom } from 'react-icons/md';
+import { MdEmail, MdPhone } from 'react-icons/md';
 
 
 export default function Home() {
@@ -25,11 +25,14 @@ export default function Home() {
                 <img className="image" src="/nymphsRegenLogo.svg"/>
               </a>
               <div className="nav">
-              <div ontouchstart="">
-                    <div className="navButton">
-                      <a href="#ventures">Ventures</a>
-                    </div>
-                  </div>
+              <a
+                href="https://wa.me/9743149354"
+                class="whatsapp_float"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button class="custom-btn btn-11">Let's Talk</button>
+              </a>
               </div>
             </div>
             <div className="main-container">

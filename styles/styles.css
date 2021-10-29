@@ -7,6 +7,55 @@
        url("/fonts/Maghfirea.ttf") format('truetype');
 }
 
+.custom-btn {
+  width: 8rem;
+  height: 2.5rem;
+  border: 3px solid #000;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-11 {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.btn-11:hover {
+   background: #000;
+  color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
 .emailInfo {
   display: flex;
   justify-content: center;
@@ -15,10 +64,12 @@
 
 .emailicon {
   margin-right: 1rem;
+  color: white;
 }
 
 .phoneicon {
   margin-right: 1rem;
+  color: white;
 }
 
 .phoneInfo {
@@ -608,21 +659,25 @@
   align-items: flex-start;
   width: 100%;
   height: 100%;
-  border: 1px solid black;
   border-radius: 30px;
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  -webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.15);
 }
 .heading-6 {
   padding-bottom: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  color: #17B17D;
 }
 .text-2 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   display: inline-block;
   position: relative;
+  color: white;
 }
 
 .text-2:after {
@@ -663,12 +718,14 @@
   padding-bottom: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  color: #17B17D;
 }
 .text-4 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   display: inline-block;
   position: relative;
+  color: white;
 }
 
 .text-4:after {
@@ -701,10 +758,12 @@
   padding-bottom: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  color: #17B17D;
 }
 .text-5 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  color: white;
 }
 .contact-section-container {
   display: flex;
