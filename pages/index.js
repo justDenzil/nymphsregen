@@ -203,7 +203,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="map-container">
-                    <ContactLottie />
+                    <ContactLottie className="lottie"/>
                   </div>
                 </div>
               </section>
