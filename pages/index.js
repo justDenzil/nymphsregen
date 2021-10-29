@@ -66,7 +66,7 @@ export default function Home() {
                           <i className="material-icons screen-1__icon">face</i>
                           <div className="screen-1__value-content">
                             <div className="screen-1__value-title">
-                              Trusted & Reliable
+                              Trusted &apos; Reliable
                             </div>
                             <p className="screen-1__paragraph-4">
                               With immense industrial knowledge and experience on
@@ -138,7 +138,7 @@ export default function Home() {
                     </div>
                     <div className="venture-2-container">
                     <img className="image-7" src="/venture2.png"/>
-                      <h1 className="heading-7">Nymphs Infrastructure & Design</h1>
+                      <h1 className="heading-7">Nymphs Infrastructure &apos; Design</h1>
                       <div className="v2-desc">
                         Environment conscious design that enables sustainable
                         infrastructure.
