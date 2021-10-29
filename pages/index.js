@@ -5,6 +5,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import ContactLottie from '../components/ContactLottie';
+
 
 export default function Home() {
   return (
@@ -201,7 +203,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="map-container">
-                    <img className="image-6" src="/hero-illustration.png"/></div>
+                    <ContactLottie />
+                  </div>
                 </div>
               </section>
             </div>
