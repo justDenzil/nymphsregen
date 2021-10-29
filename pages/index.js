@@ -189,15 +189,15 @@ export default function Home() {
                     <div className="email-container">
                       <h1 className="heading-6">Email</h1>
                       <div className="emailInfo">
-                      <MdEmail />
-                      <div className="text-2">business@nymphsregen.com</div>
+                      <MdEmail className="emailicon"/>
+                      <div className="text-2"><a href="mailto:business@nymphsregen.com?subject=Mail from Our Site">business@nymphsregen.com</a></div>
                       </div>
                     </div>
                     <div className="email-container-2">
                       <h1 className="heading-8">Phone</h1>
                       <div className="phoneInfo">
-                      <MdPhone />
-                      <div className="text-4">+91 9743149354</div>
+                      <MdPhone className="phoneicon"/>
+                      <div className="text-4"><a href="tel:9743149354">+91 9743149354</a></div>
                       </div>
                     </div>
                     <div className="email-container-4">
@@ -205,9 +205,11 @@ export default function Home() {
                       <div className="addressInfo">
                       <MdHomeWork className="address"/>
                       <div className="text-5">
+                        <address>
                         Novel Business park, #57 Vibgyor Net Connections, 13th
                         cross, Salarpuria Triton, Anepalya, Koramangala Bangalore-
                         560047, India
+                        </address>
                       </div>
                       </div>
                     </div>

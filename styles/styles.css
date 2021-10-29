@@ -13,6 +13,14 @@
   align-items: center;
 }
 
+.emailicon {
+  margin-right: 1rem;
+}
+
+.phoneicon {
+  margin-right: 1rem;
+}
+
 .phoneInfo {
   display: flex;
   justify-content: center;
@@ -22,7 +30,7 @@
 .addressInfo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .address {
@@ -545,6 +553,8 @@
   align-items: flex-start;
   width: 100%;
   height: 100%;
+  border: 1px solid black;
+  border-radius: 30px;
 }
 .heading-6 {
   padding-bottom: 0.5rem;
@@ -554,8 +564,28 @@
 .text-2 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  padding-left: 1em;
+  display: inline-block;
+  position: relative;
 }
+
+.text-2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #17B17D;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.text-2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .email-container {
   display: flex;
   flex-direction: column;
@@ -580,8 +610,28 @@
 .text-4 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  padding-left: 1em;
+  display: inline-block;
+  position: relative;
 }
+
+.text-4:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #17B17D;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.text-4:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .email-container-4 {
   display: flex;
   flex-direction: column;
@@ -606,6 +656,9 @@
   width: 100%;
   height: 100%;
   padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 3rem;
 }
 .map-container {
   display: flex;
