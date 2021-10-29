@@ -19,7 +19,7 @@ export default function Home() {
           <section className="main-section">
             <div className="header">
               <a className="home" href="https://www.handoff.design">
-                <img class="image" src="/nymphsRegenLogo.svg"/>
+                <img className="image" src="/nymphsRegenLogo.svg"/>
               </a>
               <div className="nav">
               
@@ -202,7 +202,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="map-container">
-                    <img class="image-6" src="/hero-illustration.png"/></div>
+                    <img className="image-6" src="/hero-illustration.png"/></div>
                 </div>
               </section>
             </div>
