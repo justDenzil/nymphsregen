@@ -6,7 +6,7 @@ import 'swiper/css/scrollbar';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ContactLottie from '../components/ContactLottie';
-import { MdEmail, MdPhone, MdHomeWork } from 'react-icons/md';
+import { MdEmail, MdPhone, MdMeetingRoom } from 'react-icons/md';
 
 
 export default function Home() {
@@ -25,6 +25,11 @@ export default function Home() {
                 <img className="image" src="/nymphsRegenLogo.svg"/>
               </a>
               <div className="nav">
+              <div ontouchstart="">
+                    <div className="navButton">
+                      <a href="#ventures">Ventures</a>
+                    </div>
+                  </div>
               </div>
             </div>
             <div className="main-container">
@@ -124,7 +129,7 @@ export default function Home() {
                   </Swiper>
                 </div>
               </section>
-              <section className="ventures-section">
+              <section className="ventures-section" id="ventures">
                 <div className="ventures-title">
                   <h1 className="heading-4">Our Ventures</h1>
                 </div>
@@ -202,15 +207,12 @@ export default function Home() {
                     </div>
                     <div className="email-container-4">
                       <h1 className="heading-9">Address</h1>
-                      <div className="addressInfo">
-                      <MdHomeWork className="address"/>
                       <div className="text-5">
                         <address>
                         Novel Business park, #57 Vibgyor Net Connections, 13th
                         cross, Salarpuria Triton, Anepalya, Koramangala Bangalore-
-                        560047, India
+                        560047, India.
                         </address>
-                      </div>
                       </div>
                     </div>
                   </div>
