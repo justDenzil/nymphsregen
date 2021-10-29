@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="about-heading"><h1 className="heading-5">About</h1></div>
                 <div className="about-container">
                   <div className="nymphsregenbox">
-                  <img class="image-3" src="/hero-illustration.png"/>
+                  <img className="image-3" src="/hero-illustration.png"/>
                   </div>
                   <div className="about-content">
                     <p className="paragraph-3">
@@ -129,7 +129,7 @@ export default function Home() {
                 <div className="venture-container">
                   <div className="venture-1st-tier-container">
                     <div className="venture-1-container">
-                    <img class="packaging" src="/venture1.png"/>
+                    <img className="packaging" src="/venture1.png"/>
                       <h1 className="nymphspackaging">Nymphs Renewable Packaging</h1>
                       <div className="v1-desc">
                         Supply of renewable packaging materials to meet all your necessary
@@ -137,7 +137,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="venture-2-container">
-                    <img class="image-7" src="/venture2.png"/>
+                    <img className="image-7" src="/venture2.png"/>
                       <h1 className="heading-7">Nymphs Infrastructure & Design</h1>
                       <div className="v2-desc">
                         Environment conscious design that enables sustainable
@@ -147,28 +147,28 @@ export default function Home() {
                   </div>
                   <div className="venture-2nd-tier-container">
                     <div className="venture-3-container">
-                    <img class="foods" src="/venture3.png"/>
+                    <img className="foods" src="/venture3.png"/>
                       <h1 className="nymphsfood">Nymphs Foods</h1>
                       <div className="v3-desc">
                         Organic, Traditional and Tasty foods.
                       </div>
                     </div>
                     <div className="venture-4-container">
-                    <img class="energy" src="/venture4.png"/>
+                    <img className="energy" src="/venture4.png"/>
                       <h1 className="nymphsenergy">Nymphs Energy</h1>
                       <div className="v4-desc">Sustainable energy solutions</div>
                     </div>
                   </div>
                   <div className="venture-3rd-tier-container">
                     <div className="venture-5-container">
-                    <img class="skcapital" src="/venture5.png" />
+                    <img className="skcapital" src="/venture5.png" />
                       <h1 className="capital">Nymphs SK Capital</h1>
                       <div className="v5-desc">
                         Investments Management and Capital Management.
                       </div>
                     </div>
                     <div className="venture-6-container">
-                    <img class="ayurveda" src="/venture6.png" />
+                    <img className="ayurveda" src="/venture6.png" />
                       <h1 className="ayur">Nymphs Ayur</h1>
                       <div className="v6-desc">
                         Ayurvedic medicines and herbal products.
