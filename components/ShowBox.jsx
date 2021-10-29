@@ -19,7 +19,8 @@ export function ShowBox(props) {
       <pointLight color="white" intensity={1.5} position={[10, 10, 10]} />
         <OrbitControls 
         autoRotate
-        enableZoom={false}/>
+        enableZoom={false}
+        enablePan={false}/>
         <Suspense fallback={null}>
           <Model scale={[0.07,0.07,0.07]}/>
         </Suspense>
