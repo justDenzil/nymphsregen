@@ -7,6 +7,7 @@ import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ContactLottie from '../components/ContactLottie';
 import { MdEmail, MdPhone } from 'react-icons/md';
+import { ShowBox } from '../components/ShowBox.jsx'
 
 
 export default function Home() {
@@ -59,7 +60,7 @@ export default function Home() {
                 <div className="about-heading"><h1 className="heading-5">About</h1></div>
                 <div className="about-container">
                   <div className="nymphsregenbox">
-                  <img className="image-3" src="/hero-illustration.png"/>
+                  <ShowBox />
                   </div>
                   <div className="about-content">
                     <p className="paragraph-3">
