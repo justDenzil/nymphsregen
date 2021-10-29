@@ -14,10 +14,12 @@ import Model from "./NymphsRegenBoxforBrowser"
 export function ShowBox(props) {
   return (
     <div style = {{height:"60vh"}}>
-      <Canvas camera={{position: [10, 18, 23], fov: 0.5 }}>
+      <Canvas camera={{position: [10, 18, 23], fov: 0.5 }} setPixelRatio="window.devicePixelRatio">
       <ambientLight intensity={0.5} />
       <pointLight color="white" intensity={1.5} position={[10, 10, 10]} />
-        <OrbitControls autoRotate/>
+        <OrbitControls 
+        autoRotate
+        enableZoom="false"/>
         <Suspense fallback={null}>
           <Model scale={[0.07,0.07,0.07]}/>
         </Suspense>
