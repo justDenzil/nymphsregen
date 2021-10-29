@@ -27,11 +27,10 @@ export default function Home() {
               <div className="nav">
               <a
                 href="https://wa.me/9743149354"
-                class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button class="custom-btn btn-11">Let's Talk</button>
+                <button className="custom-btn btn-11">Let&apos;s Talk</button>
               </a>
               </div>
             </div>
