@@ -7,6 +7,28 @@
        url("/fonts/Maghfirea.ttf") format('truetype');
 }
 
+.emailInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addressInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  font-size: 2rem;
+}
+
 .nymphsButton{
   position:relative;
   display:inline-block;
@@ -532,6 +554,7 @@
 .text-2 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  padding-left: 1em;
 }
 .email-container {
   display: flex;
@@ -557,6 +580,7 @@
 .text-4 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  padding-left: 1em;
 }
 .email-container-4 {
   display: flex;
@@ -574,6 +598,7 @@
 .text-5 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  padding-left: 1rem;
 }
 .contact-section-container {
   display: flex;

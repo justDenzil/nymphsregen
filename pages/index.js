@@ -6,6 +6,7 @@ import 'swiper/css/scrollbar';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ContactLottie from '../components/ContactLottie';
+import { MdEmail, MdPhone, MdHomeWork } from 'react-icons/md';
 
 
 export default function Home() {
@@ -187,18 +188,27 @@ export default function Home() {
                   <div className="contact-section-container">
                     <div className="email-container">
                       <h1 className="heading-6">Email</h1>
+                      <div className="emailInfo">
+                      <MdEmail />
                       <div className="text-2">business@nymphsregen.com</div>
+                      </div>
                     </div>
                     <div className="email-container-2">
                       <h1 className="heading-8">Phone</h1>
+                      <div className="phoneInfo">
+                      <MdPhone />
                       <div className="text-4">+91 9743149354</div>
+                      </div>
                     </div>
                     <div className="email-container-4">
                       <h1 className="heading-9">Address</h1>
+                      <div className="addressInfo">
+                      <MdHomeWork className="address"/>
                       <div className="text-5">
                         Novel Business park, #57 Vibgyor Net Connections, 13th
                         cross, Salarpuria Triton, Anepalya, Koramangala Bangalore-
                         560047, India
+                      </div>
                       </div>
                     </div>
                   </div>
