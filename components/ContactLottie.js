@@ -12,5 +12,5 @@ export default function ContactLottie() {
     },
   };
 
-  return <Lottie options={defaultOptions} height={500} width={500} />;
+  return <Lottie options={defaultOptions} height={495} width={495} />;
 }
