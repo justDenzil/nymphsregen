@@ -7,7 +7,7 @@ import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ContactLottie from '../components/ContactLottie';
 import { MdEmail, MdPhone } from 'react-icons/md';
-import { ShowBox } from '../components/ShowBox.jsx'
+import  ShowBox  from '../components/ShowBox'
 
 
 export default function Home() {
