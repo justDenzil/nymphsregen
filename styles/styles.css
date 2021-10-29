@@ -1,0 +1,928 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap&family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'Maghfirea';
+  src: url("/fonts/maghfirea-webfont.woff2") format("woff2"),
+       url("/fonts/maghfirea-webfont.woff") format("woff"),
+       url("/fonts/Maghfirea.ttf") format('truetype');
+}
+
+.nymphsButton{
+  position:relative;
+  display:inline-block;
+}
+
+.nymphsButton a{
+  color:white;
+  font-family:"Poppins", sans-serif;
+  font-weight:bold;
+  font-size:1rem;
+  text-align: center;
+  text-decoration:none;
+  background-color:#17B17D;
+  display:block;
+  position:relative;
+  padding:10px 30px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #0b6447;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #0b6447;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #0b6447;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nymphsButton a:active{
+  top:10px;
+  background-color:#17B17D;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #0b6447;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #0b6447;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #0b6447;
+}
+
+.nymphsButton:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#041f16;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.screen-1__paragraph-4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.screen-1__value-title {
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 186%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.image {
+  width: 100%;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+}
+.values {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.image-4 {
+  width: 100%;
+  height: 100%;
+}
+.screen-1__value-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 5rem 1.5rem 3rem;
+}
+.venture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.screen-1__value-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.ventures-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+.nymphspackaging {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.hero-tagline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.packaging {
+  width: 100%;
+  height: 100;
+}
+.awards-title {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  padding: 1rem;
+}
+.ventures-title {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3rem;
+}
+.heading-4 {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.venture-1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.venture-1st-tier-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.heading-1 {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+  font-family: 'Maghfirea';
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.heading-1 span {
+  color: #17B17D;
+}
+
+.nymphsregenbox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.screen-1__list-item {
+  width: 100%;
+  height: 40%;
+  margin: 0px 0px 0.5rem;
+}
+.paragraph-2 {
+  align-self: center;
+  width: 90%;
+  height: 100%;
+  padding-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.88rem;
+  text-align: center;
+}
+.screen-1__icon {
+  padding-right: 1rem;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+.awards-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+.button {
+  align-self: center;
+  width: 50%;
+  height: 100%;
+  padding: 8px 16px;
+  background: rgba(59, 130, 246, 1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.07);
+  transition: background 0.25s ease-in-out 0s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+.button:hover {
+  background: rgba(37, 99, 235, 1);
+}
+.button:active {
+  background: rgba(29, 78, 216, 1);
+}
+.button:focus {
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.image-2 {
+  object-fit: contain;
+  width: 80%;
+  height: 100%;
+}
+.carousel-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.screen-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+}
+.heading-3 {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.paragraph-3 {
+  margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+}
+.paragraph {
+  align-self: center;
+  width: 70%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.v1-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.venture-2-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.image-7 {
+  width: 100%;
+  height: 100%;
+}
+.heading-7 {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.v2-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.venture-2nd-tier-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.venture-3-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.foods {
+  width: 100%;
+  height: 100%;
+}
+.nymphsfood {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.v3-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.venture-4-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.energy {
+  width: 100%;
+  height: 100%;
+}
+.nymphsenergy {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.v4-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.venture-3rd-tier-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.venture-5-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.skcapital {
+  width: 100%;
+  height: 100%;
+}
+.capital {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.v5-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.venture-6-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.ayurveda {
+  width: 100%;
+  height: 100%;
+}
+.ayur {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.v6-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3rem;
+}
+.contact {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.text {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+.about-heading {
+  display: flex;
+}
+.heading-5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+.contact-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.heading-6 {
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.text-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+.email-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+.heading-8 {
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.text-4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.email-container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+.heading-9 {
+  padding-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.text-5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.contact-section-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+.map-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.image-6 {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 576px) {
+  .about-content {
+    align-self: center;
+    width: 70%;
+  }
+  .venture-1-container {
+    width: 70%;
+  }
+  .venture-1st-tier-container {
+    align-items: center;
+  }
+  .heading-1 {
+    width: 80%;
+    font-size: 3rem;
+  }
+  .nymphsregenbox {
+    justify-content: center;
+  }
+  .paragraph-2 {
+    width: 60%;
+    padding-bottom: 3rem;
+  }
+  .button {
+    width: 30%;
+  }
+  .image-2 {
+    width: 50%;
+  }
+  .venture-2-container {
+    width: 70%;
+  }
+  .venture-2nd-tier-container {
+    align-items: center;
+    width: 100%;
+  }
+  .venture-3-container {
+    width: 70%;
+  }
+  .venture-4-container {
+    width: 70%;
+  }
+  .venture-3rd-tier-container {
+    align-items: center;
+  }
+  .venture-5-container {
+    width: 70%;
+  }
+  .venture-6-container {
+    width: 70%;
+  }
+  .about-container {
+    justify-content: center;
+  }
+  .contact-details-container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+
+  .carousel-container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .hero-section {
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .packaging {
+    width: 85%;
+  }
+  .venture-1-container {
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .venture-1st-tier-container {
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .heading-1 {
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+  }
+  .paragraph-2 {
+    align-self: flex-start;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    text-align: left;
+  }
+  .button {
+    align-self: flex-start;
+    width: 40%;
+  }
+  .image-2 {
+    width: 80%;
+  }
+  .hero-image-container {
+    align-self: center;
+    padding-top: 1.5rem;
+  }
+  .paragraph {
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+  }
+  .venture-2-container {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .venture-2nd-tier-container {
+    flex-direction: row;
+  }
+  .venture-3-container {
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .foods {
+    width: 75%;
+  }
+  .venture-4-container {
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .venture-3rd-tier-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .venture-5-container {
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .venture-6-container {
+    width: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .ayurveda {
+    width: 92%;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .contact-details-container {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+
+  .carousel-container {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .about-content {
+    width: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .hero-section {
+    flex-direction: row;
+    height: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+  }
+  .hero-tagline {
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .venture-1-container {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .venture-2-container {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.6rem;
+  }
+  .venture-1st-tier-container {
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    padding: 3rem;
+  }
+  .heading-1 {
+    text-align: left;
+  }
+  .nymphsregenbox {
+    align-self: flex-start;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .paragraph-2 {
+    align-self: flex-start;
+    text-align: left;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .button {
+    width: 30%;
+    height: 100%;
+  }
+  .paragraph-3 {
+    text-align: left;
+  }
+  .paragraph {
+    align-self: flex-start;
+    text-align: left;
+  }
+  .venture-2nd-tier-container {
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 3rem;
+  }
+  .venture-3rd-tier-container {
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 3rem;
+  }
+  .about-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+  }
+  .about-heading {
+    width: 100%;
+    height: 100%;
+  }
+  .heading-5 {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  .contact-details-container {
+    align-items: center;
+    padding: 3rem;
+  }
+  .contact-section-container {
+    padding-right: 3rem;
+  }
+  .map-container {
+    padding-left: 3rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+
+  .carousel-container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .about-content {
+    width: 100%;
+    padding-right: 3rem;
+  }
+  .hero-tagline {
+    padding-top: 3rem;
+  }
+  .venture-1st-tier-container {
+    padding: 3rem;
+  }
+  .heading-1 {
+    width: 70%;
+    font-size: 4rem;
+  }
+  .nymphsregenbox {
+    align-self: center;
+    align-items: center;
+  }
+  .paragraph-2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .button {
+    width: 30%;
+  }
+  .paragraph {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .v2-desc {
+    text-align: center;
+  }
+  .venture-2nd-tier-container {
+    padding: 3rem;
+  }
+  .venture-3rd-tier-container {
+    padding: 3rem;
+  }
+  .about-container {
+    align-self: center;
+    justify-content: center;
+  }
+  .contact-details-container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .contact-section-container {
+    padding-right: 3rem;
+  }
+  .map-container {
+    padding-left: 3rem;
+  }
+}
